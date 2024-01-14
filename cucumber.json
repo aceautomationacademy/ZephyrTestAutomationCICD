@@ -1,0 +1,317 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3759087400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify the new user registration landing page",
+        "description": "",
+        "id": "verification-of-registrationpage-details;verify-the-new-user-registration-landing-page",
+        "after": [
+          {
+            "result": {
+              "duration": 241650700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5110441500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the Login page",
+            "match": {
+              "location": "BasePage.user_navigates_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 655990100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User successfully lands on RegistrationPage",
+            "match": {
+              "location": "RegistrationPage.userSuccessfullyLandsOnRegistrationPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2057456300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to view the Registration page heading",
+            "match": {
+              "location": "RegistrationPage.user_should_be_able_to_view_the_registration_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestCaseKey\u003dAOP-T4"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1667265000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify the new user registration page",
+        "description": "",
+        "id": "verification-of-registrationpage-details;verify-the-new-user-registration-page",
+        "after": [
+          {
+            "result": {
+              "duration": 105347000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4486236200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User navigates to the Login page",
+            "match": {
+              "location": "BasePage.user_navigates_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273021500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User successfully lands on RegistrationPage",
+            "match": {
+              "location": "RegistrationPage.userSuccessfullyLandsOnRegistrationPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3467033600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be able to enter the details of registration and submit registration",
+            "match": {
+              "location": "RegistrationPage.userShouldBeAbleToEnterTheDetailsOfRegistrationAndSubmitRegistration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestCaseKey\u003dAOP-T5"
+          }
+        ]
+      }
+    ],
+    "name": "Verification of RegistrationPage details",
+    "description": "",
+    "id": "verification-of-registrationpage-details",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/RegistrationValidation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1421808800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify the username and password text fields are appearing correctly on SignInPage",
+        "description": "",
+        "id": "verification-of-signinpage-details;verify-the-username-and-password-text-fields-are-appearing-correctly-on-signinpage",
+        "after": [
+          {
+            "result": {
+              "duration": 186861900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4498747900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the Login page",
+            "match": {
+              "location": "BasePage.user_navigates_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User successfully lands on SignInPage",
+            "match": {
+              "location": "SignInPage.userSuccessfullyLandsOnSignInPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4105380900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to view the username and password text fields on SignInPage",
+            "match": {
+              "location": "SignInPage.userShouldBeAbleToViewTheUsernameAndPasswordTextFieldsOnSignInPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestCaseKey\u003dAOP-T2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1808886200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify the Login button and New User buttons are appearing correctly on SignInPage",
+        "description": "",
+        "id": "verification-of-signinpage-details;verify-the-login-button-and-new-user-buttons-are-appearing-correctly-on-signinpage",
+        "after": [
+          {
+            "result": {
+              "duration": 134176700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4442360300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User navigates to the Login page",
+            "match": {
+              "location": "BasePage.user_navigates_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User successfully lands on SignInPage",
+            "match": {
+              "location": "SignInPage.userSuccessfullyLandsOnSignInPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003cfalse\u003e but was:\u003ctrue\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.SignInPage.userShouldBeAbleToViewTheLoginAndNewUserButtonsOnSignInPage(SignInPage.java:36)\r\n\tat ✽.User should be able to view the Login and New User buttons on SignInPage(src/test/java/features/SignInValidation.feature:13)\r\n",
+              "duration": 2049700200,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "User should be able to view the Login and New User buttons on SignInPage",
+            "match": {
+              "location": "SignInPage.userShouldBeAbleToViewTheLoginAndNewUserButtonsOnSignInPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestCaseKey\u003dAOP-T3"
+          }
+        ]
+      }
+    ],
+    "name": "Verification of SignInPage details",
+    "description": "",
+    "id": "verification-of-signinpage-details",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/SignInValidation.feature",
+    "tags": []
+  }
+]
